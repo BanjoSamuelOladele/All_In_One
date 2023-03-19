@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75a3549b-3b8a-45b4-9126-5c1013f2c470" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/takeHome/AirConditioner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/takeHome/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/takeHome/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/takeHome/AirConditionerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/takeHome/BikeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/takeHome/CalculatorTest.java" afterDir="false" />
+    <list default="true" id="75a3549b-3b8a-45b4-9126-5c1013f2c470" name="Changes" comment="assignment track">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/takeHome/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/takeHome/Bike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/takeHome/BikeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/takeHome/BikeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +60,7 @@
       <recent name="takeHome" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest">
+  <component name="RunManager" selected="JUnit.BikeTest">
     <configuration name="AirConditionerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assignment" />
       <extension name="coverage">
@@ -97,6 +87,22 @@
       <option name="PACKAGE_NAME" value="takeHome" />
       <option name="MAIN_CLASS_NAME" value="takeHome.BikeTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BikeTest.accelerationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="takeHome.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="takeHome" />
+      <option name="MAIN_CLASS_NAME" value="takeHome.BikeTest" />
+      <option name="METHOD_NAME" value="accelerationTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,8 +156,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AirConditionerTest" />
         <item itemvalue="JUnit.BikeTest" />
+        <item itemvalue="JUnit.BikeTest.accelerationTest" />
+        <item itemvalue="JUnit.AirConditionerTest" />
         <item itemvalue="JUnit.BikeTest.onBikeTest" />
         <item itemvalue="JUnit.CalculatorTest.addNumberTest" />
       </list>
@@ -165,12 +172,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679212605743</updated>
-      <workItem from="1679212607041" duration="21423000" />
+      <workItem from="1679212607041" duration="25921000" />
     </task>
+    <task id="LOCAL-00001" summary="assignment track">
+      <created>1679249120158</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679249120158</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="assignment track" />
+    <option name="LAST_COMMIT_MESSAGE" value="assignment track" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
