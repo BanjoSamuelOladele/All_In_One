@@ -12,6 +12,7 @@ public class SumOfASeries {
 
         for (index = 1; index <= numberOfOccurrence; index++){
             sum += index;
+            System.out.println(sum);
         }
         System.out.printf("%d\t%d",index-1, sum);
     }

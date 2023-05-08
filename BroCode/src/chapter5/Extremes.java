@@ -10,7 +10,7 @@ public class Extremes {
           int userChoice = userInput.nextInt();
           if (userChoice > 0){
               if (userChoice > maxNumber) maxNumber = userChoice;
-              if (maxNumber < userChoice && userChoice < semiMaxNumber) semiMaxNumber = userChoice;
+              if (userChoice < maxNumber && semiMaxNumber < userChoice) semiMaxNumber = userChoice;
           }
       }
       System.out.println("The maximum number is: "+maxNumber);
