@@ -14,6 +14,7 @@ public class ArrayOfUserInput {
             arrayOfNumbers[index] = userInput;
             totalOfUSerInputInArrayOfNumbers = totalOfUSerInputInArrayOfNumbers + arrayOfNumbers[index];
         }
+
 //        int get = 0;
 //        int counter = 0;
 //        while (counter < arrayOfNumbers.length){
